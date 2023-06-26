@@ -1,7 +1,8 @@
 name: 'PoolParty Concepts Backup'
 description: 'Schedule an automatic PoolParty Concepts backup to the repository. The backup is only executed when the concepts have changed.'
-icon: 'save'
-color: 'blue'
+branding:
+  icon: 'save'
+  color: 'blue'
 
 inputs:
   poolparty-instance-api-endpoint:  # API URL of the PoolParty instance
