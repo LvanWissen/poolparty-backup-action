@@ -1,5 +1,5 @@
 name: 'PoolParty Concepts Backup'
-description: 'Schedule an automatic PoolParty Concepts backup from a PoolParty instance to the GitHub repository. The backup is only executed when the concepts have changed.'
+description: 'Schedule an automatic PoolParty Concepts backup to the repository. The backup is only executed when the concepts have changed.'
 icon: 'save'
 color: 'blue'
 
