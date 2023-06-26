@@ -9,7 +9,9 @@ This action requires that you specify three input variables:
 * `project-name`
 * `target-filepath`
 
-You can do so by using the `width` keyword in the actions steps:
+:warning: For the `target-filepath` variable, it assumes that this file is already present in the repository and therefore tracked in the git version tree. This can also be an empty file to start with.
+
+You can specify these variables by using the `width` keyword in the actions steps:
 
 ```yaml
 steps:
