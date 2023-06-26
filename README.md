@@ -4,9 +4,10 @@ Scheduled PoolParty Concepts Backup using GitHub Actions
 ## How to configure
 
 ### Input variables
-This action requires that you specify two input variables:
+This action requires that you specify three input variables:
 * `poolparty-instance-api-endpoint`
 * `project-name`
+* `target-filepath`
 
 You can do so by using the `width` keyword in the actions steps:
 
@@ -18,6 +19,7 @@ steps:
     with:
       poolparty-instance-api-endpoint: 'https://poolparty.example.org/api/'
       project-name: 'yourprojectslug'
+      target-filepath: 'concepts.trig'
 ```
 
 
